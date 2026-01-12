@@ -67,3 +67,4 @@ class Post(db.Model):
         if not any(keyword in value for keyword in clickbait_keywords):
             raise ValueError(f"Title must contain one of: {', '.join(clickbait_keywords)}")
         return value
+    # good job 
